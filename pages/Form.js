@@ -1,52 +1,44 @@
-import React from 'react'
+import React from "react";
 
 const Form = () => {
   return (
-    <form className='form'>
-    <div  style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}>
-        <div >
-          Name
-        </div>
-
+    <div>
+      <form>
         <div>
-        Email
-      </div>
-      </div>
-      <div  style={{display:"flex",flexDirection:"row",justifyContent:"space-around"}}> 
-      <div >
-       <input type='text' placeholder='Enter Your Full Name'/>
-      </div>
-      <div>
-      <input type='text' placeholder='Enter your Email'/>
-     </div>
-    
-      </div>
-      <div>
-      Phone Number
+          <label >First name:</label>
+        </div>
+        <input className="Name" type="text" />
+        <div>
+          {" "}
+          <label for="last">Email</label>
+        </div>
+        <input className="Name" type="text" />
+        <div >
+        <div>
+          {" "}
+          <label>Phone Number</label>
+        </div>
+        <input className="cmon" type="text" />
+        <div>
+          {" "}
+          <label>App/Web Link(Optional)</label>
+        </div>
+        <input  className="cmon" type="text" />
+        <div>
+          {" "}
+          <label>Monthly Revenue (USD)</label>
+        </div>
+        <input type="text"  className="cmon"/>
+        <div>
+          <button className="button">Get Started</button>
+        </div>
+   
+       <section style={{paddintTop:"10%"}}>  By signing up, you agree to our <a className="link" href="">Terms</a> and <a className="link"  href="">Privacy Policy</a></section>
+        
+        </div>
+      </form>
     </div>
-    <div>
-     <input type='text'/>
-    </div>
-    <div>
-    App/Website Link (optional)
-  </div>
-  <div>
-   <input type='text'/>
-  </div>
-  <div>
-  Monthly Revenue (USD)
-</div>
-<div>
- <input type='text'/>
-</div>
-<div>
-Name
-</div>
-<div>
-<button>Get Starte</button>
-</div>
-    </form>
-  )
-}
+  );
+};
 
-export default Form
+export default Form;

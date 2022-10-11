@@ -40,16 +40,46 @@ text-align: center; */
     
 
   }
-  .formtext{
-    top: 170px;
-left: 940px;
-width: 42px;
-height: 19px;
+  .Name{
+    top: 201px;
+    left: 941px;
+    width: 220px;
+    height: 48px;
+    /* UI Properties */
+    background: #F9FAFE 0% 0% no-repeat padding-box;
+    border: 1px solid #0F1B4D0F;
+    border-radius: 4px;
+    opacity: 1;
+  }
+  .cmon{
+    top: 315px;
+left: 941px;
+width: 460px;
+height: 48px;
 /* UI Properties */
-text-align: left;
-font: normal normal bold 16px/26px Lato;
-letter-spacing: 0px;
-color: #1D1A1A;
+background: #F9FAFE 0% 0% no-repeat padding-box;
+border: 1px solid #0F1B4D0F;
+border-radius: 4px;
 opacity: 1;
+    
+  }
+  .button{
+    top: 631px;
+left: 941px;
+width: 460px;
+height: 54px;
+/* UI Properties */
+background: #126FED 0% 0% no-repeat padding-box;
+border-radius: 6px;
+opacity: 1;
+border:#126FED;
+color:#fff;
+font: normal normal bold 19px/29px Lato;
 
+  }
+  .link{
+    text-decoration: none;
+    color:#126FED;
+    
+  
   }
