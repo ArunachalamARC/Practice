@@ -33,7 +33,7 @@ const Form = () => {
           <button className="button">Get Started</button>
         </div>
    
-       <section style={{paddintTop:"10%"}}>  By signing up, you agree to our <a className="link" href="">Terms</a> and <a className="link"  href="">Privacy Policy</a></section>
+       <div className="linktext"> By signing up, you agree to our <a className="link" href="">Terms</a> and <a className="link"  href="">Privacy Policy</a></div>
         
         </div>
       </form>
