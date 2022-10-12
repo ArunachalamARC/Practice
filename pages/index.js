@@ -1,5 +1,5 @@
 import React from "react";
-import Form from "./Form";
+
 import Brand from "../src/Components/Brand/Brand";
 import Navbar from "../src/Components/Navbar/Navbar";
 import Header from "../src/Components/Header/Header";
@@ -12,9 +12,13 @@ import Possibilities from "../src/Components/Possibiities/Possibilities";
 
 const index = () => {
   return (
-    <div>
-      <Navbar />
-      <Header />
+    <div className="bg_gradient">
+      <div>
+       
+        <Navbar />
+        <Header />
+      </div>
+
       <Brand />
       <WhatGPT3 />
       <Feature />
