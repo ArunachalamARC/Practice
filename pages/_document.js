@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
           alignItems: "center",
           margin: "0%",
           fontFamily: "Roboto",
-          maxWidth: "1440px",
+          maxWidth: "1920px",
           marginLeft: "auto",
           marginRight: "auto",
         }}>
