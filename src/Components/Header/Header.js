@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div>
-     <div className='header_text'>
+    <div className='header_main'>
+     <div className='header_text' >
      <h1>Let’s Build Something
      amazing with GPT-3
      OpenAI</h1>
@@ -21,7 +21,7 @@ const Header = () => {
      <p>1,600 people requested access a visit in last 24 hours</p>
      </div>
      </div>
-     <div>
+     <div className='header_img'>
      <img src="https://i.ibb.co/7vH2mdw/ai.png" alt="ai" border="0" />
      </div>
     </div>
