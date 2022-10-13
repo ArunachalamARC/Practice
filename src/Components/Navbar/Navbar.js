@@ -9,16 +9,16 @@ const Navbar = () => {
       <div className='gpt3_navbar_logo'>
       <img src="https://i.ibb.co/sjNHMdV/logo.png" alt="logo" border="0" />
       </div>
-      <div className='gpt3_navbar_links_container'>
-       <p><a href=''>Home</a></p>
-       <p><a href=''>What is GPT</a></p>
-       <p><a href=''>Open AI</a></p>
-       <p><a href=''>Case Studies</a></p>
-       <p><a href=''> Library</a></p>
+      <div className='gpt3_navbar_links_container' style={{color:"#fff"}}>
+       <a href='' style={{color:"white",textDecoration:"none"}}>Home</a>
+       <p><a href='' style={{color:"white",textDecoration:"none"}}>What is GPT</a></p>
+       <p><a href='' style={{color:"white",textDecoration:"none"}}>Open AI</a></p>
+       <p><a href='' style={{color:"white",textDecoration:"none"}}>Case Studies</a></p>
+       <p><a href='' style={{color:"white",textDecoration:"none"}}> Library</a></p>
       </div>
     </div>
     <div className="gpt3_navbar_links_sign button">
-    <p>Sign in</p>
+    <p style={{color:"#fff",margin:"1rem",cursor:"pointer"}} >Sign in</p>
     <button type="button">Sign up</button>
   </div>
       
