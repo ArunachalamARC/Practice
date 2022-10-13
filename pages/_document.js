@@ -37,7 +37,14 @@ export default class MyDocument extends Document {
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet"/>
 
         </Head>
-        <body className="bg" style={{backgroundColor:"",alignItems:"center",margin:"0%"}}>
+        <body className="bg" style={{
+          alignItems: "center",
+          margin: "0%",
+          fontFamily: "Roboto",
+          maxWidth: "1440px",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}>
           <Main />
           <NextScript />
         </body>
