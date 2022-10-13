@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-// import { RiMenu3Line,RiCloseLine } from "react-icons/ri";
+
 
 const Navbar = () => {
   return (

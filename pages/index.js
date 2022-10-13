@@ -19,13 +19,7 @@ const index = () => {
         <Header />
       </div>
 
-      <Brand />
-      <WhatGPT3 />
-      <Feature />
-      <Possibilities />
-      <Cta />
-      <Blog />
-      <Footer />
+   
     </div>
   );
 };
