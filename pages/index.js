@@ -18,7 +18,9 @@ const index = () => {
         <Navbar />
         <Header />
       </div>
-
+      <div>
+         <Brand/>
+      </div>
    
     </div>
   );

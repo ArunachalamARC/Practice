@@ -238,3 +238,8 @@ margin-right: 3rem;
   display: flex;
   flex-direction: row;
 }
+.Brand_head{
+  
+  display: flex;
+  justify-content: center;
+}
