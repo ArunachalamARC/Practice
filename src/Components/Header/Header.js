@@ -12,11 +12,11 @@ const Header = () => {
        <p>Yet bed any for travelling assistance indulgence unpleasing. Not
         thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
      </div>
-     <div>
-      <input type='text' />
+     <div className='header_input'>
+      <input type='text'  placeholder='You Email address'/>
       <button>Get Started</button>
      </div>
-     <div>
+     <div className='header_people'>
      <img src="https://i.ibb.co/Y39sQnB/people.png" alt="people" border="0" />
      <p>1,600 people requested access a visit in last 24 hours</p>
      </div>
