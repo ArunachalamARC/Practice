@@ -20,6 +20,7 @@ const index = () => {
       </div>
       <div>
          <Brand/>
+         <WhatGPT3 />
       </div>
    
     </div>
